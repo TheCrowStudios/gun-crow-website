@@ -1,0 +1,101 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #222222;
+}
+
+@font-face {
+    font-family: "yoster";
+    src: url("yoster-webfont.woff") format("woff");
+    src: url("yoster-webfont.woff2") format("woff2");
+}
+
+body {
+    background-color: #111111;
+    color: #ffffff;
+    max-width: 1000px;
+    margin: auto;
+    font-family: "yoster", 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#front {
+    background-color: #222222;
+    padding: 5px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: larger;
+}
+
+a:hover {
+    color: navajowhite;
+}
+
+img {
+    max-width: 800px;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+}
+
+.download {
+    font-size: larger;
+}
+
+#full {
+    color: gray;
+}
+
+#gameplay {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#gameplay > img {
+    margin-bottom: 20px;
+    width: 80%;
+    image-rendering: pixelated;
+}
+
+#gameplay > video {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#credits {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
